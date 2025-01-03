@@ -1,3 +1,3 @@
 {% for file in site.data %}
-{{ file.pippo }}
+{{ site.data[file].pippo }}
 {% endfor %}
